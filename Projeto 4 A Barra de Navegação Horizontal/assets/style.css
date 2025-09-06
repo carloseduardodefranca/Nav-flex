@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* .2 Estilos gerais */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* 3. Estilo */
+.content{
+    padding: 20px;
+    text-align: center;
+}
+
+/* 4. estilização do cabeçalho da página HEADER */
+
+.mainHeader{
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 5. Estilização da logo */
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+ /* 6. Estilo da navegação */
+
+ .main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+ }
+
+  /* 7.Estilização dos links */
+
+  .main-nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-bottom-color 0.3s;
+  }
+
+   /* 8.Estilização do efeito hover */
+
+   .main-nav a:hover{
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+   }
